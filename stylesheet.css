@@ -1,0 +1,216 @@
+/* ページの余白を消す */
+body {
+   margin: 0;
+   padding: 0;
+}
+
+* {
+  box-sizing:border-box;
+}
+
+/* ページをジャンプするとき、ゆっくりスクロールするように移動させるプログラム　👇 */
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* 動画の下地（黒背景） */
+
+.background-black {
+  width:100vw;
+  height:108vh;
+  background-color: black;
+  margin-bottom:-150px;
+  padding-bottom:-50px;
+}
+
+/* 動画（不透明度を設定） */
+video {
+  width:100vw;
+  height:108vh;
+  object-fit: cover;
+  opacity: 0.5;
+  display: none;
+  margin-bottom:-10px;
+}
+
+.text-blog {
+  text-align: center;
+  color:white;
+  margin-top:-470px;
+  opacity: 0.7;
+  display: none;
+}
+
+.fadein {
+  display:none;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+/* 上のボタン「Profile」 */
+.profole {
+  color:white;
+  background-color:gray;
+  padding:3px 20px 3px 20px;
+  display:inline-block;
+  font-weight: bold;
+  margin-left:25vw;
+  margin-top:8px;
+  float:left;
+}
+
+/* 「上のボタン「Profile」リンク時の紫文字。下線を消す */
+.profole a {
+  color:white;
+  border:none;
+  text-decoration: none;
+}
+
+/* 上のボタン「About」 */
+.about {
+  display:inline-block;
+  margin-left:35vw;
+  float:left;
+}
+
+/* 上のボタン「Bicycle」 */
+.bicycle {
+  display:inline-block;
+  margin-left:5vw;
+  float:left;
+}
+
+/* 自転車の写真 */
+.bicycle-photo {
+  width:100%;
+  height: 600px;
+  object-fit: cover;
+  margin-top:-6px;
+}
+
+/* 「rink」クラスのリンク時の紫文字。下線を消す */
+.rink a {
+  color:black;
+  border:none;
+  text-decoration: none;
+}
+
+/* 中央の「About」を中心に持ってくるためにクラスを作る（まずクラスを中央揃えにする。text-align:center;） */
+.aboutclass {
+  text-align: center;
+  margin-top:2vw;
+  padding-right: 3vw;
+}
+
+/* その後テキスト「About」をinline-blockにする */
+.about-middle {
+  border-bottom:1px #404040 solid;
+  display:inline-block;
+  color:#404040;
+  font-size: 2rem;
+  text-align: center;
+  margin-left:-40px;
+}
+
+/* プロフィールクラス */
+.profile {
+  margin:0 auto;
+  width:100%;
+  margin-top:3vw;
+}
+
+/* プロフィール画像 */
+.profile-photo {
+  width:105px;
+  border-radius: 180px;
+  float:left;
+  margin-left:33vw;
+}
+
+/* プロフィール：名前「KAKERU MIYAICHI」 */
+.my-name {
+  font-weight: bold;
+  position: relative;
+  left:37px;
+}
+
+/* プロフィール：テキスト「テキストテキストテキスト...」 */
+.text {
+  font-size:14px;
+  margin-top:-5px;
+  text-align: center;
+  margin-left:35px;
+  display:inline-block;
+}
+
+/* テキスト「Bicycle」 */
+.bicycle-class2 {
+  text-align: center;
+  padding-right: 3vw;
+}
+
+/* 見出し「Bicycle」を真ん中に配置するためのクラス　*/
+.bicycle2 {
+  border-bottom:1px #404040 solid;
+  display:inline-block;
+  color:#404040;
+  font-size: 2rem;
+  margin:7vw;
+  text-align: center;
+}
+
+/* 下の３つのコンテンツクラス　*/
+.content-class {
+  width:890px;
+  height:20vw;
+  margin:0 auto;
+  margin-top:-40px;
+}
+
+/* ３つのコンテンツ（横に３つ並んでいる）　*/
+.content {
+  width:285px;
+  height:20vw;
+  float:left;
+}
+
+/* 左のコンテンツ　*/
+.content1 {
+}
+
+/* 中央のコンテンツ　*/
+.content2 {
+}
+
+/* 右のコンテンツ　*/
+.content3 {
+  margin-top:-24px;
+}
+
+/* コンテンツの３つの写真　*/
+.content-photo {
+  width:275px;
+  margin:0 auto;
+  display:block;
+}
+
+/* コンテンツのタイトル　*/
+.content-title {
+  text-align: center;
+}
+
+/* コンテンツのテキスト　*/
+.content-text {
+  text-align: center;
+  font-size:14px;
+  margin-top:-10px;
+}
+
+.footer-logo {
+  font-size:3px;
+  margin-top:80px;
+  text-align: center;
+}

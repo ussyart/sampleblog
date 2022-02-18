@@ -1,0 +1,215 @@
+/* ブレイクポイントが930px以下のときのメディアクエリを設定  トップの文字が赤色に変化*/
+@media (max-width:930px) {
+
+  /* ３つのコンテンツ（横に３つ並んでいる）　*/
+  .content {
+    clear:both;　 /* float:left;を解除 */
+    margin:0 auto;
+    width:100vw;
+    height:68vw;
+  }
+
+  /* コンテンツの３つの写真　*/
+  .content-photo {
+    width:80vw;
+  }
+
+  /* プロフィールクラス */
+  .profole {
+    margin-left:10vw;
+  }
+
+  /* 上のボタン「About」 */
+  .about {
+    margin-left:40vw;
+  }
+
+  /* 自転車の写真 */
+  .bicycle-photo {
+    height: 800px;
+  }
+
+  /* プロフィール画像 */
+  .profile-photo {
+    display:block;
+    margin:0 40vw 0 41vw;
+    width:125px;
+  }
+
+  /* プロフィール：名前「KAKERU MIYAICHI」 */
+  .my-name {
+   display:block;
+   clear:both; /* float:left;を解除 */
+   text-align: center;
+   margin-right: 12vw;
+   position: relative;
+   top:10px;
+  }
+
+  /* プロフィール：テキスト「テキストテキストテキスト...」 */
+  .text {
+    display:block;
+    clear:both; /* float:left;を解除 */
+    text-align: center;
+    margin-right: 8vw;
+    margin-top:20px;
+  }
+
+}
+
+
+@media (max-width:842px) {
+
+  /* テキスト「Bicycle」 */
+  .bicycle2 {
+    margin-bottom:100px;
+  }
+
+  /* ３つのコンテンツ（横に３つ並んでいる）　*/
+  .content {
+    margin-bottom:50px;
+  }
+
+  /* 真ん中のコンテンツ　*/
+  .content2 {
+    margin-bottom:80px;
+  }
+
+  /* 下のコンテンツ　*/
+  .content3 {
+    margin-bottom:80px;
+  }
+
+}
+
+
+@media (max-width:799px) {
+
+  /* プロフィール画像 */
+  .profile-photo {
+    display:block;
+    margin:0 40vw 0 40.5vw;
+    width:125px;
+  }
+
+}
+
+@media (max-width:723px) {
+
+  /* プロフィール画像 */
+  .profile-photo {
+    display:block;
+    margin:0 40vw 0 40vw;
+    width:125px;
+  }
+
+}
+
+@media (max-width:688px) {
+
+  /* プロフィール画像 */
+  .profile-photo {
+    display:block;
+    margin:0 40vw 0 39vw;
+    width:125px;
+  }
+
+}
+
+
+@media (max-width:625px) {
+
+  /* プロフィール画像 */
+  .profile-photo {
+    display:block;
+    margin:0 40vw 0 38vw;
+    width:125px;
+  }
+
+}
+
+@media (max-width:524px) {
+
+  /* プロフィール画像 */
+  .profile-photo {
+    display:block;
+    margin:0 40vw 0 36vw;
+    width:125px;
+  }
+
+}
+
+@media (max-width:506px) {
+
+  /* 上のボタン「About」 */
+  .about {
+    display:inline-block;
+    margin-left:30vw;
+    float:left;
+  }
+
+}
+
+@media (max-width:457px) {
+
+  /* プロフィール画像 */
+  .profile-photo {
+    display:block;
+    margin:0 40vw 0 34vw;
+    width:125px;
+  }
+
+  /* プロフィール：名前「KAKERU MIYAICHI」 */
+  .my-name {
+   display:block;
+   clear:both; /* float:left;を解除 */
+   text-align: center;
+   margin-right: 19vw;
+   position: relative;
+   top:10px;
+  }
+
+  /* プロフィール：テキスト「テキストテキストテキスト...」 */
+  .text {
+    display:block;
+    clear:both; /* float:left;を解除 */
+    text-align: center;
+    margin-right: 8vw;
+    margin-top:20px;
+    font-size:12px;
+  }
+
+}
+
+@media (max-width:421px) {
+
+  /* 上のボタン「About」 */
+  .about {
+    display:inline-block;
+    margin-left:25vw;
+    float:left;
+  }
+
+}
+
+@media (max-width:398px) {
+
+  /* プロフィール：テキスト「テキストテキストテキスト...」 */
+  .text {
+    font-size:4.5vw;
+    width:80vw;
+    text-align: center;
+  }
+
+}
+
+@media (max-width:383px) {
+
+  /* 上のボタン「About」 */
+  .about {
+    display:inline-block;
+    margin-left:10vw;
+    float:left;
+  }
+
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- viewport（レスポンシブを可能にするシステム）を読み込むための<meta>タグを記述 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サンプル１</title>
+    <!-- cssを読み込み -->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <!-- responsive.css（レスポンシブ コード）を読み込むための記述 -->
+    <link rel="stylesheet" href="responsive.css">
+    <!-- jqueryを使えるように設定 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </head>
+
+  <body>
+
+    <div class="background-black"><!-- 動画クラス（動画の下地の黒背景） -->
+
+    <!-- top画像 -->
+    <video class="top" id="top-movie" src="Bmx - 16293.mp4" alt="サイクリングブログ" loop autoplay muted playsinline>
+    </video>
+
+      <h1 class="text-blog" id="text-blogid">KAKERU MIYAICHI Blog</h1>
+
+  　　</div><!-- 動画クラス（動画の下地の黒背景） ここまで-->
+
+
+　<div class="fadein"　id="fadeinid"><!--最初表示しない。動画が終わってから表示する-->
+
+   <div class="overflow">
+    <!-- 上のボタン「Profile」 ※リンク付き-->
+    <h2 class="profole fadein">
+      <a href="#profile">Profile</a>
+    </h2>
+    <!-- 上のボタン「About」　※リンク付き -->
+    <p class="about rink">
+      <a href="#about">About</a>
+    </p>
+    <!-- 上のボタン「Bicycle」　※リンク付き -->
+    <p class="bicycle rink">
+      <a href="#bicycle">Bicycle</a>
+    </p>
+
+　　 <!-- 自転車の画像 -->
+    <img class="bicycle-photo" src="https://code-step.com/demo/html/profile/img/mainvisual.jpg" alt="自転車">
+
+    <!-- 中央の「About」を中心に持ってくるためにクラスを作る（まずクラスを中央揃えにする。text-align:center; その後テキストをinline-blockにする） -->
+    <div class="aboutclass">
+    　<!-- テキスト「About」 -->
+    　<h1 class="about-middle" id="about">About</h1>
+    </div><!-- aboutclassここまで -->
+
+    <!-- プロフィール -->
+    <div class="profile">
+      <!-- プロフィール写真 -->
+      <img class="profile-photo" id="profile" src="https://code-step.com/demo/html/profile/img/about.jpg" alt="プロフィール画像">
+      <p class="my-name">KAKERU MIYAICHI</p>
+      <p class="text">テキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキスト</p>
+    </div><!-- ここまでプロフィール -->
+
+    <!-- 見出し「Bicycle」 -->
+    <div class="bicycle-class2">
+      <h1 class="bicycle2" id="bicycle">Bicycle</h1>
+    </div>
+
+    <!-- 3つのコンテンツ クラス -->
+    <div class="content-class">
+
+　　　 <!-- 左コンテンツ クラス -->
+      <div class="content1 content">
+        <img class="content-photo" src="https://code-step.com/demo/html/profile/img/bicycle1.jpg" alt="">
+        <h4 class="content-title">タイトルタイトル</h4>
+        <p class="content-text">テキストテキストテキスト</p>
+      </div>
+
+　　　 <!-- 中央コンテンツ クラス -->
+      <div class="content2 content">
+        <img class="content-photo" src="https://code-step.com/demo/html/profile/img/bicycle2.jpg" alt="">
+        <h4 class="content-title">タイトルタイトル</h4>
+        <p class="content-text">テキストテキストテキスト</p>
+      </div>
+
+      <!-- 右コンテンツ クラス -->
+      <div class="content3 content">
+        <img class="content-photo" src="https://code-step.com/demo/html/profile/img/bicycle3.jpg" alt="">
+        <h4 class="content-title">タイトルタイトル</h4>
+        <p class="content-text">テキストテキストテキスト</p>
+      </div class="content-text">
+
+    </div> <!-- 3つのコンテンツ クラス ここまで-->
+
+    <footer>
+      <p class="footer-logo">© 2020 Profile</p>
+    </footer>
+
+  </div>
+
+</div><!--最初表示しない。動画が終わってから表示する ここまで-->
+
+  <!-- jqueryを読み込み -->
+  <script src="script.js"></script>
+
+  </body>
+
+</html>
