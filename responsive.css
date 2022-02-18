@@ -213,3 +213,17 @@
   }
 
 }
+
+@media (max-width:376px) {
+
+  /* 上のボタン「About」 */
+  .about {
+    margin-left:21vw;
+    }
+
+  /* プロフィール：テキスト「テキストテキストテキスト...」 */
+  .text {
+    font-size:1.5vw;
+  }
+
+}
