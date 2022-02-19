@@ -214,7 +214,7 @@
 
 }
 
-@media (max-width:376px) {
+@media (max-width:375px) {
 
   /* 上のボタン「About」 */
   .about {
@@ -223,7 +223,24 @@
 
   /* プロフィール：テキスト「テキストテキストテキスト...」 */
   .text {
-    font-size:1.5vw;
+    font-size:2.9vw;
+  }
+
+  /* プロフィール画像 */
+  .profile-photo {
+    display:block;
+    margin:0 40vw 0 31.5vw;
+    width:125px;
+  }
+
+  /* プロフィール：名前「KAKERU MIYAICHI」 */
+  .my-name {
+   display:block;
+   clear:both; /* float:left;を解除 */
+   text-align: center;
+   margin-right: 20vw;
+   position: relative;
+   top:10px;
   }
 
 }
